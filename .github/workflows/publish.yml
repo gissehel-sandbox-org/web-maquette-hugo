@@ -38,7 +38,7 @@ jobs:
           hugo-version: '0.119.0'
 
       - name: Build
-        run: hugo --minify
+        run: cd src && hugo --minify
 
       - name: "Deploy to GitHub Pages"
         if: "success()"
