@@ -39,7 +39,10 @@ jobs:
           extended: true
 
       - name: Build
-        run: cd src && hugo --minify && echo "demo.clood.ovh" > public/CNAME
+        run: |
+          cd src && hugo --minify && \
+          echo "demo.clood.ovh" > public/CNAME
+          echo "" > public/.nojekyll
 
       - name: "Deploy to GitHub Pages"
         if: "success()"
