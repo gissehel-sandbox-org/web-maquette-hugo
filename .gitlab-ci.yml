@@ -6,6 +6,7 @@ variables:
 
 test:  # builds and tests your site
   script:
+    - cd src
     - hugo
   rules:
     - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
