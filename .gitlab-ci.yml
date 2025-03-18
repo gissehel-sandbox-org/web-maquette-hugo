@@ -12,6 +12,7 @@ test:  # builds and tests your site
 
 deploy-pages:  # a user-defined job that builds your pages and saves them to the specified path.
   script:
+    - cd src
     - hugo
   pages: true  # specifies that this is a Pages job
   artifacts:
