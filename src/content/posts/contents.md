@@ -2,6 +2,21 @@
 title="Contents"
 +++
 
+Test d'ajout de contenu depuis l'interface web de gitlab.
+- Item 1
+- Item 2
+- Item 3
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| valeur 1 | valeur 2 |
+| valeur 3 | $$ x = y $$ |
+
+```plantuml
+Bob -> Alice : hello
+Alice -> Bob : hi
+```
+
 # Introduction
 
 Préambule à l'introduction ([lien vers un site](https://google.com/)).
