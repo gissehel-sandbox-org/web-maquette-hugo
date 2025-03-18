@@ -10,12 +10,7 @@ Test d'ajout de contenu depuis l'interface web de gitlab.
 | Header 1 | Header 2 |
 | -------- | -------- |
 | valeur 1 | valeur 2 |
-| valeur 3 | $$ x = y $$ |
-
-```plantuml
-Bob -> Alice : hello
-Alice -> Bob : hi
-```
+| valeur 3 | valeur 4 |
 
 # Introduction
 
